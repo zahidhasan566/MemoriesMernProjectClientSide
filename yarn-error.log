@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Daraz\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/material-icons
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp8\php;C:\xampp\php;C:\xamp7.4\php;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\nodejs\;C:\Users\Daraz\AppData\Local\Programs\Python\Launcher\;C:\Users\Daraz\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Daraz\AppData\Local\Programs\Python\Python310\;C:\Users\Daraz\AppData\Local\Microsoft\WindowsApps;C:\Users\Daraz\AppData\Roaming\Composer\vendor\bin;;D:\Microsoft VS Code\bin;C:\Users\Daraz\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mui%2fmaterial-icons: Not found
+      at Request.params.callback [as _callback] (C:\Users\Daraz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\Daraz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Daraz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Daraz\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.12.4",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^0.27.2",
+      "moment": "^2.29.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-file-base64": "^1.0.3",
+      "react-redux": "^8.0.2",
+      "react-redux-form": "^1.16.8",
+      "react-scripts": "5.0.1",
+      "redux-thunk": "^2.4.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
